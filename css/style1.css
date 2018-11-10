@@ -1,0 +1,50 @@
+body{
+	background-image: url("../img/fon.gif");
+	background-repeat: no-repeat;
+	background-size: 100% 1000px;
+	margin: 0;
+	padding: 0; 
+	height: 850px;
+}
+
+header{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+}
+
+
+.ppoisk{
+	position: relative;
+	bottom: 47px;
+	margin-left: 1080px;
+}
+
+.poisk{
+	background-color: white;
+	border-color: black;
+	border-radius: 10px;
+	font-family: 'Courgette', cursive;
+	color: black;
+	border-style: outset; 
+	/*box-shadow: 0 4px 10px #444;-тень под блоком!*/ 
+}
+
+
+.lText{
+	margin-top: -20px;
+	font-family: 'Anton', sans-serif;
+	color: white;
+}
+
+.oBlock{
+	width: 500px;
+	height: 600px;
+	background-color: #332f2c; 
+	margin-left: 830px;
+	margin-top: 20px;
+}
+
+.sBlock{
+
+}

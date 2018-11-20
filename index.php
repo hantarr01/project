@@ -54,4 +54,28 @@ else{
 <a href='index.php?Zapros_sobstvenno=true'>Тыкай ;)</a>
 </div>
 
+
+
+<?php
+
+$arr = [1,2,4,56,7,86,9,0];
+
+$con = count($arr);
+
+$nul = 0;
+
+for( $i = 0;  $i < $con;  $i++){ 
+
+if (){
+
+#To be continied
+
+}
+
+}
+
+?>
+
+
+
 </body>

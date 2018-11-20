@@ -1,0 +1,21 @@
+body {
+	background-color: green;
+}
+
+.b1 {
+	width: 250px;
+	height: 30px;
+	background-color: white;
+    color: blue;
+    text-decoration: cursive;
+    font-family: cursive;
+}
+
+.b2 {
+	width: 250px;
+	height: 30px;
+	background-color: white;
+    color: red;
+    text-decoration: cursive;
+    font-family: cursive;
+}

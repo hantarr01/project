@@ -30,12 +30,28 @@ else{
 
  echo "<div class=b2>Условие НЕВЕРНО и я вывелся</div>";
 
-
 }
 
 ?>
 
 
+<?php
+ function getz(){
 
+   echo "<div class=b3> Отправляю Гет запрос, только это тайна ;). Серьезно не пытайся меня взломать! </div>";
 
- </body>
+ }
+  
+  if (isset($_GET['Zapros_sobstvenno'])) {
+
+     getz();
+
+  }
+
+?>
+
+<div class="b4">
+<a href='index.php?Zapros_sobstvenno=true'>Тыкай ;)</a>
+</div>
+
+</body>

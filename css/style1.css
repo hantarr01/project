@@ -18,9 +18,11 @@ header{
 	position: relative;
 	bottom: 47px;
 	margin-left: 1080px;
+    margin-top: 10px;
 }
 
 .poisk{
+     margin-top: 10px;
 	background-color: white;
 	border-color: black;
 	border-radius: 9px;
@@ -106,13 +108,18 @@ header{
 }
 
 
+.forgot{
+   font-family: 'Courgette', cursive; 
+}
 
 .forgotBlock{
-    width: 1000px;
-    height: 1000px;
-    background-color: red;
+    width: 170px;
+    height: 165px;
     position: absolute;
-    left: 600px;
+    right: 130px;
+    top: 360px;
+    border: 1px dashed white;
+    border-radius: 7px;
 }
 
 footer{

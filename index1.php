@@ -5,9 +5,9 @@
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
- 	<link href="css/style1.css" rel="stylesheet" type="text/css">
- 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
- 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+ 	<link href="css/style1.css" rel="stylesheet" type="text/css"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
  	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
  	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> 
@@ -72,47 +72,50 @@
 
  							<div class="reg">
  								
- 									<?php
- 								      
-
- 								      function ff(){  
- 								      echo "<div class = forgotBlock>0</div>";               
+ 								<?php  
+ 									               
  									if(isset($_GET['forgotclick'])) {
-	 									}
-	 								ff();
-	                                 }
- 									?>
+ 										echo  "<div class = forgotBlock>
+
+
+
+
+ 										        </div>";
+ 								}
+
+ 								?>
  								
-	 								<a href="index1.php?forgotclick=true" class="button"> Forgot the password?</a>
-                              
+ 								<a href='index1.php?forgotclick=true' class="forgot"> Forgot the password?</a>
 
- 								</div>
 
- 							</form>
+ 							</div>
 
- 						</div>
+ 						</form>
 
  					</div>
 
-
-
- 					<footer>
-
- 						<p>Feedback:<a href="https://github.com/hantarr01">My github</a></p>
-
- 						<p class="com">To leave a comment:</p>
- 						<textarea class="form-control" rows="3" maxlength="250"
- 						style="width: 100px; height: 40px; position: absolute; 
- 						left: 150px; bottom: 5px;">
- 					</textarea>
- 					<button style="position: absolute; bottom: 5px; left: 75px;"onclick='leave()'>Leave</button>
+ 				</div>
 
 
 
+ 				<footer>
 
- 				</footer>
+ 					<p>Feedback:<a href="https://github.com/hantarr01">My github</a></p>
 
- 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
- 				<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
- 				<script src="script.js"></script>
- 			</body>
+ 					<p class="com">To leave a comment:</p>
+ 					<textarea class="form-control" rows="3" maxlength="250"
+ 					style="width: 100px; height: 40px; position: absolute; 
+ 					left: 150px; bottom: 5px;">
+ 				</textarea>
+ 				<button style="position: absolute; bottom: 5px; left: 75px;"onclick='leave()'>Leave</button>
+
+
+
+
+ 			</footer>
+
+ 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 			<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+ 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 			<script src="script.js"></script>
+ 		</body>

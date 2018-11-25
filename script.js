@@ -14,6 +14,10 @@ function poisk() {
  
 
 
+function forgot() {
+  alert('It is impossible to restore the account now.');
+}
+
 
 
 function leave() {

@@ -108,10 +108,6 @@ header{
 }
 
 
-.forgot{
-   font-family: 'Courgette', cursive; 
-}
-
 .forgotBlock{
     width: 170px;
     height: 165px;
@@ -120,6 +116,31 @@ header{
     top: 360px;
     border: 1px dashed white;
     border-radius: 7px;
+    font-family: 'Courgette', cursive; 
+}
+
+.fmEnphp{
+    border-style: inset;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 5px;
+    background: linear-gradient(-360deg, gray, white);
+    height: 25px;
+    color: black;
+    position:absolute;
+    left:5px;
+    top: 40px;
+}
+
+.buttonp{
+    position: absolute;
+    top: 70px;
+}
+
+.aBack{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
 }
 
 footer{

@@ -6,8 +6,8 @@
  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
  	<link href="css/style1.css" rel="stylesheet" type="text/css"> 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
  	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
  	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> 
@@ -67,20 +67,29 @@
  							<button class="fmEn" style="width: 90px; height: 30px; color: black;">Enter</button>
 
  							<div class="reg">
- 								<button href="index2.html" class="button">Registration</button>
+ 								
+ 								<input value="Registration" type="button" onclick="location.href='index2.php'" class="button"/>
  							</div>
 
  							<div class="reg">
  								
  								<?php  
- 									               
- 									if(isset($_GET['forgotclick'])) {
- 										echo  "<div class = forgotBlock>
+
+ 								if(isset($_GET['forgotclick'])) {
+ 									echo  
+ 									"<div class = forgotBlock>
+
+ 									<p style=position:absolute;right:30px;>Restore password:</p>
 
 
+ 									<strong style=position:absolute;top:20px;left:5px;>Email:</strong> 
+ 									<input class=fmEnphp  type=login maxlength=25 size=18 name=password placeholder=Recovery></p>
 
+ 									<button class=button onclick='forgot()' style=position:absolute;top:70px;left:5px;>Restore</button>
+                                    
+                                    <a href='index1.php' class=aBack>Back</a>
 
- 										        </div>";
+ 									</div>";
  								}
 
  								?>
@@ -107,7 +116,7 @@
  					style="width: 100px; height: 40px; position: absolute; 
  					left: 150px; bottom: 5px;">
  				</textarea>
- 				<button style="position: absolute; bottom: 5px; left: 75px;"onclick='leave()'>Leave</button>
+ 				<button style="position: absolute; bottom: 5px; left: 75px; color: black; "onclick='leave()'>Leave</button>
 
 
 

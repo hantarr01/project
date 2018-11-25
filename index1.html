@@ -8,6 +8,7 @@
  	<link href="css/style1.css" rel="stylesheet" type="text/css">
  	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
  	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+ 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
  	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
  	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> 
 
@@ -35,13 +36,16 @@
  		</header>
 
 
- 		<ul id="slides">
- 			<li class="slide showing" wight="300" height="500"></li>
- 			<li class="slide"></li>
- 			<li class="slide"></li>
- 			<li class="slide"></li>
- 			<li class="slide"></li>
- 		</ul>
+ 		
+	<div class="sBlock">
+ 		<div class="slider">
+			<img src="img/1.jpg" width="400px" height="220px;">
+ 			<img src="img/2.jpg" width="400px" height="220px;">
+ 			<img src="img/3.jpg" width="400px" height="220px;">
+ 			<img src="img/4.jpg" width="400px" height="220px;">
+ 			<img src="img/5.jpg" width="400px" height="220px;">
+ 		</div>
+	</div>
 
 
  		<div class="oBlock">
@@ -82,19 +86,19 @@
 
  					<p>Feedback:<a href="https://github.com/hantarr01">My github</a></p>
 
-					<p class="com">To leave a comment:</p>
+ 					<p class="com">To leave a comment:</p>
  					<textarea class="form-control" rows="3" maxlength="250"
  					style="width: 100px; height: 40px; position: absolute; 
- 					 left: 150px; bottom: 5px;"></textarea> 
- 					   
-					<div class="rl">
-			 			<p><a href="index4.html">Russian language</a></p>
-					</div>
+ 					left: 150px; bottom: 5px;">
+ 					</textarea>
+ 					<button style="position: absolute; bottom: 5px; left: 75px;"onclick='leave()'>Leave</button>
+ 					 
+
+ 				
 
  				</footer>
 
- 				<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
- 				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
- 				<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+ 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 				<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
  				<script src="script.js"></script>
  			</body>

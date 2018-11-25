@@ -31,7 +31,7 @@ header{
     background: linear-gradient(-360deg, gray, white);
    /* display: block;//трансформация блока
    transition: 0.4; 
-    box-shadow: 0 4px 10px #444;//тень под блоком!*/ 
+   box-shadow: 0 4px 10px #444;//тень под блоком!*/ 
 }
 
 
@@ -50,9 +50,10 @@ header{
 	margin-top: 20px;
 	opacity: 0.9;
     font-family: 'Courgette', cursive;
+    color: black;
 }
 
-.sBlock{
+.slBlock{
   width: 400px;
   height: 300px;
   position: absolute;
@@ -62,8 +63,8 @@ header{
 
 
 .txEn{
-   margin-left: 110px;
-   color: white;
+ margin-left: 110px;
+ color: white;
 }
 
 .ent{
@@ -90,7 +91,7 @@ header{
     margin-left: 2px;
 }
 
-a.button {
+.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -99,8 +100,19 @@ a.button {
     border-style: inset;
     border-width: 3px;
     border-color: black;
+    font-family: 'Courgette', cursive;
     border-radius: 5px;
     background: linear-gradient(-360deg, gray, white);
+}
+
+
+
+.forgotBlock{
+    width: 1000px;
+    height: 1000px;
+    background-color: red;
+    position: absolute;
+    left: 600px;
 }
 
 footer{

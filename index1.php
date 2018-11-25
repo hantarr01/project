@@ -37,15 +37,15 @@
 
 
  		
-	<div class="sBlock">
- 		<div class="slider">
-			<img src="img/1.jpg" width="400px" height="220px;">
- 			<img src="img/2.jpg" width="400px" height="220px;">
- 			<img src="img/3.jpg" width="400px" height="220px;">
- 			<img src="img/4.jpg" width="400px" height="220px;">
- 			<img src="img/5.jpg" width="400px" height="220px;">
+ 		<div class="slBlock">
+ 			<div class="slider">
+ 				<img src="img/1.jpg" width="400px" height="220px;">
+ 				<img src="img/2.jpg" width="400px" height="220px;">
+ 				<img src="img/3.jpg" width="400px" height="220px;">
+ 				<img src="img/4.jpg" width="400px" height="220px;">
+ 				<img src="img/5.jpg" width="400px" height="220px;">
+ 			</div>
  		</div>
-	</div>
 
 
  		<div class="oBlock">
@@ -57,44 +57,58 @@
  				<form>
 
  					<p><strong>Email:</strong> 
- 						<input class="fmEn" maxlength="25" size="25" name="login" placeholder="Your email" style="margin-left: 28px;"></p>
+ 						<input class="fmEn" maxlength="25" size="25" name="login" placeholder="Your email" style="margin-left: 28px; color: black;"></p>
 
  						<p><strong>Password:</strong> 
- 							<input class="fmEn" type="password" maxlength="25" size="25" name="password" placeholder="Your password"></p>
+ 							<input class="fmEn" type="password" maxlength="25" size="25" name="password" placeholder="Your password" style="color: black;"></p>
 
  							<p><input type="checkbox" name="option1" value="a1" checked>Shared computer</p>
 
- 							<button class="fmEn" style="width: 90px; height: 30px;">Enter</button>
+ 							<button class="fmEn" style="width: 90px; height: 30px; color: black;">Enter</button>
 
  							<div class="reg">
- 								<a href="index2.html" class="button">Registration</a>
+ 								<button href="index2.html" class="button">Registration</button>
  							</div>
 
  							<div class="reg">
- 								<a href="index3.html" class="button">Forgot the password?</a>
- 							</div>
+ 								
+ 									<?php
+ 								      
 
- 						</form>
+ 								      function ff(){  
+ 								      echo "<div class = forgotBlock>0</div>";               
+ 									if(isset($_GET['forgotclick'])) {
+	 									}
+	 								ff();
+	                                 }
+ 									?>
+ 								
+	 								<a href="index1.php?forgotclick=true" class="button"> Forgot the password?</a>
+                              
+
+ 								</div>
+
+ 							</form>
+
+ 						</div>
 
  					</div>
 
- 				</div>
 
 
+ 					<footer>
 
- 				<footer>
+ 						<p>Feedback:<a href="https://github.com/hantarr01">My github</a></p>
 
- 					<p>Feedback:<a href="https://github.com/hantarr01">My github</a></p>
-
- 					<p class="com">To leave a comment:</p>
- 					<textarea class="form-control" rows="3" maxlength="250"
- 					style="width: 100px; height: 40px; position: absolute; 
- 					left: 150px; bottom: 5px;">
+ 						<p class="com">To leave a comment:</p>
+ 						<textarea class="form-control" rows="3" maxlength="250"
+ 						style="width: 100px; height: 40px; position: absolute; 
+ 						left: 150px; bottom: 5px;">
  					</textarea>
  					<button style="position: absolute; bottom: 5px; left: 75px;"onclick='leave()'>Leave</button>
- 					 
 
- 				
+
+
 
  				</footer>
 

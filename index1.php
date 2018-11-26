@@ -68,7 +68,7 @@
 
  							<div class="reg">
  								
- 								<input value="Registration" type="button" onclick="location.href='index2.php'" class="button"/>
+ 								<input value="Registration" type="button" onclick="location.href='index2.html'" class="button"/>
  							</div>
 
  							<div class="reg">
@@ -86,8 +86,8 @@
  									<input class=fmEnphp  type=login maxlength=25 size=18 name=password placeholder=Recovery></p>
 
  									<button class=button onclick='forgot()' style=position:absolute;top:70px;left:5px;>Restore</button>
-                                    
-                                    <a href='index1.php' class=aBack>Back</a>
+
+ 									<a href='index1.php' class=aBack>Back</a>
 
  									</div>";
  								}
@@ -112,19 +112,23 @@
  					<p>Feedback:<a href="https://github.com/hantarr01">My github</a></p>
 
  					<p class="com">To leave a comment:</p>
- 					<textarea class="form-control" rows="3" maxlength="250"
- 					style="width: 100px; height: 40px; position: absolute; 
- 					left: 150px; bottom: 5px;">
- 				</textarea>
- 				<button style="position: absolute; bottom: 5px; left: 75px; color: black; "onclick='leave()'>Leave</button>
+
+ 					<div class="f1">		
+ 						<button "onclick='leave()'>Leave</button>
+ 					</div>
+
+
+ 					<div class="f2">
+ 						<textarea class="form-control" rows="3" maxlength="250" style="width: 100px; height: 30px;">
+ 						</textarea>
+ 					</div>
 
 
 
+ 				</footer>
 
- 			</footer>
-
- 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
- 			<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
- 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
- 			<script src="script.js"></script>
- 		</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integritsha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>

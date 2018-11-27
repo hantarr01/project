@@ -19,6 +19,8 @@
 
  <body>
 
+
+
  	<header>
  		<div class="row">
  			<div class=" col-xs-3 col-md-6 col-lg-12">
@@ -69,7 +71,7 @@
 
  							<div class="reg">
  								
- 								<input value="Registration" type="button" onclick="location.href='index2.html'" class="button" id="fmen" />
+ 								<input value="Registration" type="button" onclick="location.href='index2.html'" class="button"/>
  							</div>
 
  							<div class="reg">

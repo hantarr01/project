@@ -11,6 +11,7 @@
  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
  	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
  	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> 
+ 	<link rel="shortcut icon" href="/img/project.ico" type="image/x-icon">
 
  	<title>Project</title>
 
@@ -62,16 +63,17 @@
  						<p><strong>Password:</strong> 
  							<input class="fmEn" type="password" maxlength="25" size="25" name="password" placeholder="Your password" style="color: black;"></p>
 
- 							<p><input type="checkbox" name="option1" value="a1" checked>Shared computer</p>
+ 							<p><input type="checkbox" name="option1" value="a1">Shared computer</p>
 
  							<button class="fmEn" style="width: 90px; height: 30px; color: black;">Enter</button>
 
  							<div class="reg">
  								
- 								<input value="Registration" type="button" onclick="location.href='index2.html'" class="button"/>
+ 								<input value="Registration" type="button" onclick="location.href='index2.html'" class="button" id="fmen" />
  							</div>
 
  							<div class="reg">
+
  								
  								<?php  
 
@@ -119,7 +121,7 @@
 
 
  					<div class="f2">
- 						<textarea class="form-control" rows="3" maxlength="250" style="width: 100px; height: 30px;">
+ 						<textarea class="form-control" rows="3" maxlength="250" style="width: 100px; height: 50px;">
  						</textarea>
  					</div>
 
@@ -127,8 +129,8 @@
 
  				</footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integritsha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="script.js"></script>
-</body>
+ 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 				<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+ 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integritsha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 				<script src="script.js"></script>
+ 			</body>

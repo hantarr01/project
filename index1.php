@@ -30,8 +30,8 @@
 
  				<div class="ppoisk">
  					<form>
- 						<p><input class="poisk"  type="search" name="q" placeholder="Search in site..."> 
- 							<input class="poisk" type="submit" value="Search &#128270" onclick='poisk()'></p>
+ 						<p><input class="poisk"  type="search" placeholder="Search in site..."> 
+ 							<input class="poisk" type="submit"  value="Search &#128270" onclick='poisk()'></p>
  						</form>
  					</div>
  				</div>
@@ -57,58 +57,69 @@
 
  			<div class="ent">
 
- 				<form>
-
+ 				<form  action="funcphp.php" method="post">
  					<p><strong>Email:</strong> 
- 						<input class="fmEn" maxlength="25" size="25" name="login" placeholder="Your email" style="margin-left: 28px; color: black;"></p>
+ 						<input class="fmEn" type="email" maxlength="25" size="25"  placeholder="Your email" name="Email" 
+ 						style="margin-left: 28px; color: black;" ></p>
 
  						<p><strong>Password:</strong> 
- 							<input class="fmEn" type="password" maxlength="25" size="25" name="password" placeholder="Your password" style="color: black;"></p>
+ 							<input class="fmEn" type="password" maxlength="25" size="25"  placeholder="Your password"  name="Password" style="color: black;"></p>
 
- 							<p><input type="checkbox" name="option1" value="a1">Shared computer</p>
+ 							<p><input type="checkbox" value="a1">Shared computer</p>
 
- 							<button class="fmEn" style="width: 90px; height: 30px; color: black;">Enter</button>
-
+ 							<input type="submit" value="Enter" class="fmEn" style="width: 90px; height: 30px; color: black;">
+ 							
  							<div class="reg">
  								
  								<input value="Registration" type="button" onclick="location.href='index2.html'" class="button"/>
- 							</div>
-
- 							<div class="reg">
-
- 								
- 								<?php  
-
- 								if(isset($_GET['forgotclick'])) {
- 									echo  
- 									"<div class = forgotBlock>
-
- 									<p style=position:absolute;right:30px;>Restore password:</p>
-
-
- 									<strong style=position:absolute;top:20px;left:5px;>Email:</strong> 
- 									<input class=fmEnphp  type=login maxlength=25 size=18 name=password placeholder=Recovery></p>
-
- 									<button class=button onclick='forgot()' style=position:absolute;top:70px;left:5px;>Restore</button>
-
- 									<a href='index1.php' class=aBack>Back</a>
-
- 									</div>";
- 								}
-
- 								?>
- 								
- 								<a href='index1.php?forgotclick=true' class="forgot"> Forgot the password?</a>
-
-
- 							</div>
-
+ 							</div>	
  						</form>
+
+
+ 						<div class="reg">
+
+
+ 							<?php  
+
+ 							if(isset($_GET['forgotclick'])) {
+ 								echo  
+ 								"<div class = forgotBlock>
+
+ 								<p style=position:absolute;right:30px;>Restore password:</p>
+
+
+ 								<strong style=position:absolute;top:20px;left:5px;>Email:</strong> 
+ 								<input class=fmEnphp  type=login maxlength=25 size=18 name=password placeholder=Recovery></p>
+
+ 								<button class=button onclick='forgot()' style=position:absolute;top:70px;left:5px;>Restore</button>
+
+ 								<a href='index1.php' class=aBack>Back</a>
+
+ 								</div>";
+ 							}
+
+ 							?>
+
+ 							<a href='index1.php?forgotclick=true' class="forgot"> Forgot the password?</a>
+
+
+ 						</div>
+
 
  					</div>
 
  				</div>
 
+
+ 				<?php
+
+ 				$p = "no";
+
+ 				if(isset($_POST['poisk'])) $p = $_POST['poisk'];
+
+ 				echo "Rez=".$p;
+
+ 				?>
 
 
  				<footer>

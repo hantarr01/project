@@ -67,6 +67,19 @@ header{
     border-radius: 7px;
 }
 
+.aBlock{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/ava.jpg); 
+    background-size: 100% 100%;
+    display: block;
+}
+
+.aBlock:hover{
+    width: 180px;
+    height: 180px;
+}
+
 .rText{
     margin-left: 420px;
     color: white;

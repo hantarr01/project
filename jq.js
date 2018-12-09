@@ -1,13 +1,12 @@
-block =	{
-   height: '250vh',
-   width: '150vw',
-}
+function block(name){
+   this.height = 250;
+   this.width = 150;
+};
 
-small = {
-   	height: '-=5vw',
-	width: '-=47vh', 
-}
-
+function small(name){ 
+   this.height = 50;
+   this.width = 30;
+};
 
 $(Start).click(function(){
 	$(block).animate({
@@ -48,10 +47,10 @@ $(Big).click(function(){
 var i = 5;
 while (i) {
   i--;
-}
 
+var exit = block-small;
 
-if (block<height ){
+if (block<small){
 		$(block).animate({
 			left: '3vw',
 			top:'6vh',
@@ -61,6 +60,7 @@ if (block<height ){
 			fontSize: "1px",   
 		});         
 }
+};
 
 $(Back).click(function(){
 	$(block).animate({

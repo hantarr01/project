@@ -1,0 +1,10 @@
+.block{
+ background-color: #4cbb17;
+ height:1px;
+ width:1px;
+ position:absolute;
+ opacity: 0.1; 
+ color: black;
+ font-size: 1px;
+}
+

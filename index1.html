@@ -57,7 +57,7 @@
 
  			<div class="ent">
 
- 				<form  action="funcphp.php" method="post">
+ 				<form action="" method="POST" name="requestname"  enctype="multipart/form-data">
  					<p><strong>Email:</strong> 
  						<input class="fmEn" type="email" maxlength="25" size="25"  placeholder="Your email" name="Email" 
  						style="margin-left: 28px; color: black;" ></p>
